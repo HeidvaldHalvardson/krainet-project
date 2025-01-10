@@ -1,0 +1,27 @@
+.circle {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.circle:after {
+    position: absolute;
+    content: '';
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: var(--orange);
+    z-index: -1;
+}
+
+.circle--left:after {
+    top: 50%;
+    transform: translateY(-50%);
+    left: -10px;
+}
+
+.circle--center:after {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

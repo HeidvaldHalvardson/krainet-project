@@ -1,0 +1,25 @@
+.social-links {
+    display: none;
+
+    @media (min-width: 1360px) {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        position: fixed;
+        top: 50%;
+        left: -104px;
+        transform: rotate(-90deg);
+    }
+}
+
+.social-links__title {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.social-links__line {
+    width: 70px;
+    height: 2px;
+    background-color: #000000;
+}

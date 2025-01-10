@@ -1,0 +1,10 @@
+.social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social__item-link {
+    display: block;
+    height: 20px;
+}

@@ -1,0 +1,136 @@
+.experience {
+    margin-bottom: 40px;
+    
+    @media (min-width: 780px) {
+        margin-bottom: 60px;
+    }
+
+    @media (min-width: 1200px) {
+        margin-bottom: 120px;
+    }
+}
+
+.experience__title {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto 25px;
+}
+
+.experience__desc {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+
+    @media (min-width: 780px) {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    @media (min-width: 1200px) {
+        margin-bottom: 25px;
+    }
+}
+
+.experience__separator {
+    margin-bottom: 40px;
+
+    @media (min-width: 780px) {
+        margin-bottom: 30px;
+    }
+
+    @media (min-width: 1200px) {
+        margin-bottom: 40px;
+    }
+}
+
+.experience__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    @media (min-width: 780px) {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    @media (min-width: 1200px) {
+        gap: 140px;
+        padding: 0 65px;
+    }
+}
+
+.experience__list-wrapper {
+    position: relative;
+    padding-left: 43px;
+    border-left: 1px solid #000000;
+}
+
+.experience__list-wrapper:before {
+    position: absolute;
+    top: 0;
+    left: -8px;
+
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--orange);
+}
+
+.experience__sub-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.experience__list .experience__item:first-child {
+    margin-bottom: 45px;
+}
+
+.experience__item-inner {
+    position: relative;
+    padding-left: 56px;
+    padding-bottom: 12px;
+}
+
+.experience__item-inner svg {
+    position: absolute;
+    bottom: 13px;
+    left: 17px;
+}
+
+.experience__item-inner:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    content: '';
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: var(--orange);
+}
+
+.experience__item-inner:after {
+    z-index: -1;
+    position: absolute;
+    top: 18px;
+    left: -43px;
+
+    content: '';
+    width: 50px;
+    height: 1px;
+    background-color: #000000;
+}
+
+.experience__item-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.experience__item-details {
+    line-height: 150%;
+}
